@@ -7,7 +7,6 @@ This bot is currently a work-in-progress.
 ### To Do List
 
 - Get Karma for u/the-quotable-swanson
-- Add more quotes
 - Dockerize
 - Install on AWS or DigitalOcean
 
