@@ -68,6 +68,7 @@ class quotable_ron:
             'On nights like this when the cold winds blow, the air is awash in the swirling eddies of our dreams, come with me and find safe haven in a warm bathtub full of my jazz.',
             'My son is several weeks old. He is very familiar with the sound of power tools.',
             'Say what you want about organized religion, but those bastards knew how to construct an edifice.',
-            'Literally everything is a weapon, son. That folder, in my hands, is far deadlier than this bow of yours.'
+            'Literally everything is a weapon, son. That folder, in my hands, is far deadlier than this bow of yours.',
+            'ERASE ALL PICTURES OF RON!'
 
         ]
