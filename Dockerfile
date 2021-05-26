@@ -1,6 +1,6 @@
 FROM python:3-alpine
 
-WORKDIR /app
+WORKDIR /swanson
 
 COPY requirements.txt ./
 
