@@ -25,8 +25,10 @@ reddit = praw.Reddit(
 def main():
     quotes = quotable_ron.ron_quotes
     for comment in reddit.subreddit(reddit_target_subreddit).stream.comments(skip_existing=True):
-        if re.search('!wisewords', comment.body, re.IGNORECASE):
-            comment.reply(random.choice(quotes))
+        if re.search('!ron', comment.body, re.IGNORECASE) and not comment.author == reddit.redditor(reddit_user):
+            ron_reply = random.choice(
+                quotes) + "\n\n__________________________________________________\n^^Greetings. ^^I ^^am ^^but ^^a ^^humble ^^robot ^^quoting ^^words ^^of ^^wisdom. ^^You ^^may ^^summon ^^me ^^with ^^'!Ron' ^^or ^^otherwise ^^leave ^^me ^^be. ^^Please ^^and ^^thank ^^you."
+            comment.reply(ron_reply)
 
 
 if __name__ == '__main__':
