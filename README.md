@@ -8,6 +8,14 @@ If you'd like to help me add quotes to this bot, please submit your list of quot
 
 If you want to use this code to create your own quote-bot, or even just some kind of reply-bot, it should be very easy to fork, edit, and deploy. Here's what you need to know.
 
+### Install PRAW
+
+[PRAW](https://pypi.org/project/praw/) is the only library this bot uses that is not in the standard Python libraries. You can install it with:
+
+    pip install praw
+
+If you deploy this bot with the included Dockerfile, PRAW will be installed automatically with `requirements.txt`.
+
 ### config.ini
 
 The `_config.ini` file contains the variables for your user-specific Reddit credentials. The variables `reddit_user`, `reddit_pass`, and `reddit_target_subreddit` should be self-explanatory.
