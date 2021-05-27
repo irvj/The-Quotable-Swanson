@@ -1,5 +1,5 @@
-class quotable_ron:
-    ron_quotes = \
+class quotable:
+    quotations = \
         [
             'There\'s only one thing I hate more than lying: skim milk. Which is water that is lying about being milk.',
             'Dear frozen yogurt, you are the celery of desserts. Be ice cream or be nothing. Zero stars.',
